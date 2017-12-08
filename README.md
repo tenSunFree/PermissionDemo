@@ -114,14 +114,12 @@ public final class Global {
     }
 }
 ```                                       
-   
-![image](https://i.imgur.com/UWP6EtG.jpg)                                      
-   
+   
+3. 最後就是在主頁面, 請求權限
+   
 ```xml
-<style name="ImageTranslucentTheme" parent="Theme.AppCompat.Light.DarkActionBar">
-    <item name="android:windowTranslucentStatus">true</item>
-    <item name="android:windowTranslucentNavigation">true</item>
-</style>
+/** 請求權限 */
+Global.requestPermisions(this);
 ``` 
  
 
